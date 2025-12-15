@@ -21,7 +21,7 @@ penup()
 goto(-250,400)
 pendown()
 begin_fill()
-color('royal blue')
+color('royal blue')#меняет цвет на голубой
 for i in range (4):
     forward(600)
     right(90)
